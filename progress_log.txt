@@ -1,0 +1,58 @@
+PROGRESS LOG:
+
+7.3.2024 (past 2-3weeks):
+  Added classes:
+    related to 3D (mostly copied and modified from the 2D classes):
+      -Boid3D
+      -CoordinateReader3D
+      -Grid3D
+      -Matrix
+      -RotationMatrix3D
+      -SteeringBehaviour3D
+      -Triangle
+      -Vector3D
+    related to GUI:
+      -canvasScene3D
+      -MainMenu
+
+  tested functions/classes:
+    - 4x4matrix multiplication
+    - vector matrix multiplicaton
+
+    other functions/classes have been tested with println statements and manual GUI testing
+
+  in progress:
+    proper 3D implementation
+      - drawing objects from obj files to the grid
+      - moving the camera in the grid
+      - being able to look around with the camera
+
+    GUI boids:
+      - drawing the boids properly to the screen
+
+    GUI sliders & menus
+      - changing the steeringbehaviour values with the sliders
+      - changing the simulations settings from a settings tab (not implemented):
+        - amount of boids
+        - boids max speed
+        - etc.
+
+21.3
+  fixed functionality:
+    -2D/3D timers are now stopped/started when switching the mode (between 2D/3D)
+    -sliders now work in 3D
+
+  added functionality:
+    -sliders in 2D (changing the steeringbehaviour values with the sliders)
+
+16.4
+  added/fixed functionality:
+    - rotation for the camera
+    - perspective projection
+    - camera matrix
+    - json presets
+    - sliders and labels
+    - threading
+
+
+

@@ -1,0 +1,20 @@
+{
+  "max_speed" : 0.007671428571428572,
+  "max_force" : 0.005085714285714286,
+  "mass" : 3334.1666666666665,
+  "cohesion" : {
+    "name" : "cohesion",
+    "multiplier" : 1.75625,
+    "radius" : 1.75625
+  },
+  "aligment" : {
+    "name" : "alignment",
+    "multiplier" : 0.37593984962406013,
+    "radius" : 0.5
+  },
+  "separation" : {
+    "name" : "separation",
+    "multiplier" : 0.2148148148148148,
+    "radius" : 0.5
+  }
+}
